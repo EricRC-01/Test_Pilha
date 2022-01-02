@@ -1,7 +1,4 @@
 
-
-
-
 typedef struct data{
 
     int ID;
