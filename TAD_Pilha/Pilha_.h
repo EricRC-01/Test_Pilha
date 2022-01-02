@@ -26,7 +26,7 @@ tipoPilha apagarPilha( tipoPilha dadosPilha, int maxNum);
 tipoPilha addPilha(tipoPilha dadosPilha, dataType eleNovo);
 
 //Remover um elemento da pilha
-tipoPilha removPilha(tipoPilha dadosPilha);
+tipoPilha removPilha(tipoPilha pilha, dataType rmvData);
 
 
 

@@ -40,16 +40,16 @@ tipoPilha addPilha(tipoPilha pilha, dataType eleNovo){
     return pilha;
 }
 
-tipoPilha removPilha(tipoPilha pilha)
+tipoPilha removPilha(tipoPilha pilha, dataType rmvData)
 {
-    /*
+    
     //Verificar se a remoção está correta
-    if(rmvData.ID != pilha.dados[pilha.qntEle].ID)
+    if(rmvData.ID != pilha.dados[pilha.qntElem].ID)
     {
         printf("Remoção invalida\n");
         return pilha;
     }
-    */
+    
     
     
     //Verificar se a pilha está vazia
